@@ -16,6 +16,11 @@ $(document).ready(function(){
         $("#development").show();
     });
     $("#product").click(function(){
-        $("")
-    })
-})
+        $("#product").hide();
+        $("#productdescription").show();
+    });
+    $("#productdescription").click(function(){
+        $("#productdescription").hide();
+        $("#product").show();
+    });
+});
