@@ -34,7 +34,7 @@ h2{
 }
 #four{
     margin-left: 200px;
-    height: 400px;
+    height: 300px;
 }
 #five{
     margin-right:100px;
@@ -54,11 +54,12 @@ form{
     text-align: center;
 }
 input[type=text]{
-    border:2px solid white;
+    width :400px;
+    border:1px solid white;
     background: transparent;
 }
 input[type=email]{
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius :none;
     background: transparent;
 }
