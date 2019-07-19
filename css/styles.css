@@ -84,3 +84,15 @@ input[type=text]::placeholder{
 .seven{
     text-align: center;
 }
+#designdescription{
+    text-align: center;
+    display: none;
+}
+#developmentdescription{
+    text-align: center;
+    display: none;
+}
+#productdescription{
+    text-align: center;
+    display: none;
+}
