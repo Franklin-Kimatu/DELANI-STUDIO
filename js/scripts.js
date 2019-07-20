@@ -12,16 +12,16 @@ $(document).ready(function(){
         $("#developmentdescription").show(300);
     });
     $("#developmentdescription").click(function(){
-        $("#developmentdescription").hide();
-        $("#development").show();
+        $("#developmentdescription").hide(300);
+        $("#development").show(300);
     });
     $("#product").click(function(){
-        $("#product").hide();
-        $("#productdescription").show();
+        $("#product").hide(300);
+        $("#productdescription").show(300);
     });
     $("#productdescription").click(function(){
-        $("#productdescription").hide();
-        $("#product").show();
+        $("#productdescription").hide(300);
+        $("#product").show(300);
     });
     $(".w-100").hover(function(){
         $(".w-100").fadeIn();

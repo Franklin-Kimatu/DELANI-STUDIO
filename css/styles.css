@@ -33,8 +33,10 @@ h2{
     margin: auto;
 }
 #four{
-    margin-left: 180px;
-    height: 300px;
+    /* margin-left: 180px;
+    height: 300px; */
+    text-align: center;
+    padding-top: 50px;
 }
 #five{
     margin-right:100px;
@@ -93,6 +95,7 @@ input[type=text]::placeholder{
     display: none;
 }
 #developmentdescription{
+    margin-right: 20%;
     text-align: center;
     display: none;
 }
@@ -102,14 +105,15 @@ input[type=text]::placeholder{
 }
 #work4{
     text-align : center;
-    border: 1px solid black;
-    left: 50%;
+    background-color: rgba(236, 222, 222, 0.493);
+    /* border: 1px solid black; */
+    /* left: 50%; */
     top: 10px;
     margin-left :35px;
-    display: none;
+    /* display: none; */
 }
 #three1{
     
-    border:1px solid black;
+    /* border:1px solid black; */
     
 }
