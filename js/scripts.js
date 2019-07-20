@@ -23,7 +23,24 @@ $(document).ready(function(){
         $("#productdescription").hide(300);
         $("#product").show(300);
     });
-    $(".w-100").hover(function(){
-        $(".w-100").fadeIn();
-    });
 });
+
+$(document).ready(function(){
+    $("#three1").mouseover(function(){
+        $("#work4").show();
+    }).mouseout(function(){
+        $("#work4").hide();
+    });
+    
+    $("#three1").mouseover(function(){
+        $("#work4").show();
+    }).mouseout(function(){
+        $("#work4").hide();
+    });
+
+    $("#three1").mouseover(function(){
+        $("#work4").show();
+    }).mouseout(function(){
+        $("#work4").hide();
+    });
+})
