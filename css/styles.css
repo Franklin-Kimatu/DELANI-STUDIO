@@ -104,10 +104,12 @@ input[type=text]::placeholder{
     text-align : center;
     border: 1px solid black;
     left: 50%;
-    top: 50%;
+    top: 10px;
     margin-left :35px;
+    display: none;
 }
-.three1{
-    border:1px hidden black;
+#three1{
+    
+    border:1px solid black;
     
 }
