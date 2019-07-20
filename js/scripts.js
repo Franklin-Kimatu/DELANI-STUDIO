@@ -1,15 +1,15 @@
 $(document).ready(function(){
     $("#design").click(function(){
-        $("#design").hide();
-        $("#designdescription").show();
+        $("#design").hide(300);
+        $("#designdescription").show(300);
     });
     $("#designdescription").click(function(){
-        $("#designdescription").hide();
-        $("#design").show();
+        $("#designdescription").hide(300);
+        $("#design").show(300)
     });
     $("#development").click(function(){
-        $("#development").hide();
-        $("#developmentdescription").show();
+        $("#development").hide(300);
+        $("#developmentdescription").show(300);
     });
     $("#developmentdescription").click(function(){
         $("#developmentdescription").hide();
@@ -22,5 +22,8 @@ $(document).ready(function(){
     $("#productdescription").click(function(){
         $("#productdescription").hide();
         $("#product").show();
+    });
+    $(".w-100").hover(function(){
+        $(".w-100").fadeIn();
     });
 });
