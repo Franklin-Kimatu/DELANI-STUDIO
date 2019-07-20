@@ -16,11 +16,14 @@
 }
 .one h1 {
     padding-top:px;
+    font-family: 'Merriweather', serif;
+    
 }
 .two{
     text-align: center;
     padding: 40px;
     font-size: 24px;
+    font-family: 'Playfair Display', serif;
 }
 .three{
     background-image: url("../images/s_image.jpg");
@@ -30,23 +33,43 @@
     padding-top: 120px;
     font-weight: bold;
 }
+.three h2{
+    font-family: 'Playfair Display', serif;
+}
+.three p{
+     font-size : 20px;
+}
 h2{
     text-align: center;
     margin: auto;
+}
+h3{
+    font-family: 'Playfair Display', serif;
 }
 #four{
     
     text-align: center;
     padding-top: 50px;
 }
+#four h2{
+    font-family: 'Playfair Display', serif;
+}
 #five{
     margin-right:100px;
     margin-left: 100px;
+}
+#five h2{
+    font-family: 'Playfair Display', serif;
 }
 .six{
     background-image : url("../images/c_image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+.six h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    font-weight: bold;
 }
 .w-100{
     padding:20px;
@@ -56,18 +79,21 @@ form{
     text-align: center;
 }
 input[type=text]{
+    font-family: 'Merriweather', serif;
     width :400px;
     border:1px solid white;
     background: transparent;
     color: white;
 }
 input[type=email]{
+    font-family: 'Merriweather', serif;
     border: 1px solid white;
     border-radius :none;
     background: transparent;
     color : white;
 }
 #comment{
+    font-family: 'Merriweather', serif;
     background: transparent;
     border: 2px solid white;
     width: 700px;
@@ -75,13 +101,16 @@ input[type=email]{
     color: white;
 }
 #comment::placeholder{
+    font-family: 'Merriweather', serif;
     color: white;
     padding-left: 20px;
 }
 input[type=email]::placeholder{
+    font-family: 'Merriweather', serif;
     color:white;
 }
 input[type=text]::placeholder{
+    font-family: 'Merriweather', serif;
     color: white;
 }
 .six h2{
@@ -91,19 +120,23 @@ input[type=text]::placeholder{
     text-align: center;
 }
 #designdescription{
+    font-family: 'Merriweather', serif;
     text-align: center;
     display: none;
 }
 #developmentdescription{
+    font-family: 'Merriweather', serif;
     margin-right: 20%;
     text-align: center;
     display: none;
 }
 #productdescription{
+    font-family: 'Merriweather', serif;
     text-align: center;
     display: none;
 }
 #work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8{
+    font-family: 'Lobster', cursive;
     text-align : center;
     background-color: rgba(0,0,0, 0.5);
     height: 215px;
@@ -117,6 +150,10 @@ input[type=text]::placeholder{
     color: whitesmoke;
 }
 #submit{
+    font-family: 'Merriweather', serif;
     padding-bottom: 10px;
     font-size: 24px;
+}
+figcaption{
+    font-family: 'Playfair Display', serif;
 }
