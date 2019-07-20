@@ -73,4 +73,6 @@ $(document).ready(function(){
     }).mouseout(function(){
         $("#work8").hide();
     });
-})
+});
+
+funct

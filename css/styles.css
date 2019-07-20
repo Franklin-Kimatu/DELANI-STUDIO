@@ -101,17 +101,20 @@ input[type=email]{
     color: white;
 }
 #comment::placeholder{
+
     font-family: 'Merriweather', serif;
     color: white;
-    padding-left: 20px;
+    padding: 4px;
 }
 input[type=email]::placeholder{
     font-family: 'Merriweather', serif;
     color:white;
+    padding:5px;
 }
 input[type=text]::placeholder{
     font-family: 'Merriweather', serif;
     color: white;
+    padding:5px;
 }
 .six h2{
     color :white;
