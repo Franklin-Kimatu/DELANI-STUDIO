@@ -105,11 +105,14 @@ input[type=text]::placeholder{
 }
 #work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8{
     text-align : center;
-    background-color: rgba(255, 255, 255, 0.39);
+    background-color: rgba(0,0,0, 0.5);
     height: 215px;
     width: 260px;
     position: absolute;
     top:20px;
     margin-left :20px;
     display: none;
+    padding-top: 80px;
+    font-size :35px;
+    color: whitesmoke;
 }
