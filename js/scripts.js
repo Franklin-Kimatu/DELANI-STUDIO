@@ -75,4 +75,9 @@ $(document).ready(function(){
     });
 });
 
-funct
+$(document).ready(function(){
+    $("form").submit(function(){
+        var name=$("input#name").val();
+        alert("Hello " +name + ", we have received your message. Thank you for reaching out to us.");
+    });
+})
