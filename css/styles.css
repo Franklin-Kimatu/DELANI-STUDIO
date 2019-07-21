@@ -146,15 +146,23 @@ input[type=text]::placeholder{
     top:20px;
     margin-left :20px;
     display: none;
-    padding-top: 50px;
-    font-size :30px;
+    padding-top: 70px;
+    font-size :24px;
     color: whitesmoke;
+    
 }
 #submit{
     font-family: 'Merriweather', serif;
     padding-bottom: 10px;
     font-size: 24px;
 }
-figcaption{
+figcaption{ 
     font-family: 'Playfair Display', serif;
+}
+
+@media only screen and (min-width: 600px) {
+   #three{
+       width : 100px;
+       margin-right: 0px;
+   }
 }
