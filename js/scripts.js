@@ -79,7 +79,7 @@ $(document).ready(function(event){
     $("form").submit(function(){
         var name=$("input#name").val();
         alert("Hello " +name + ", we have received your message. Thank you for reaching out to us.");
-        event.preventDefault
+        event.preventDefault();
         $(this).get(0).reset();
     });
 })
